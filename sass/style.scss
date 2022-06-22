@@ -1,0 +1,26 @@
+@import 'base/_variables.scss';
+
+* {
+    font-family: 'Myseo Sans', sans-serif;
+}
+
+.container {
+    position: relative;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+@import 'blocks/_promo.scss';
+@import 'blocks/_header.scss';
+@import 'blocks/buttons.scss';
+@import 'blocks/titles.scss';
+@import 'blocks/advantages.scss';
+@import 'blocks/consultation.scss';
+@import 'blocks/forms';
+@import 'blocks/carousel';
+@import 'blocks/catalog';
+@import 'blocks/feedback';
+@import 'blocks/footer';
+@import 'blocks/modal';
+
+@import '_media.scss';

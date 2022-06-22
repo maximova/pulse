@@ -1,0 +1,35 @@
+.feedback {
+    padding-bottom: 50px;
+    &__wrapper {
+        display: flex;
+        flex-direction: row;
+        margin-top: 60px;
+    }
+    &__descr {
+        display: flex;
+        flex-direction: column;
+    }
+    &__avatar {
+        max-width: 170px;
+        max-height: 170px;
+        margin-right: 60px;
+    }
+    &__nickname {
+        font-weight: 700;
+        font-size: 18px;
+        color: #0D0D0D;
+    }
+    &__progress {
+        font-weight: 500;
+        font-size: 14px;
+        color: #646464;
+    }
+    &__text {
+        margin-top: 15px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #0D0D0D;
+    }
+
+}
